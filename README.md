@@ -63,6 +63,18 @@ pip install -e .
 pip install -r requirements.txt
 ```
 
+- For Mac M1
+- 
+```shell
+conda create --name redtts python=3.10
+conda activate redtts
+
+pip install torch torchaudio torchvision
+conda install -c conda-forge pynini=2.1.5
+pip install -e .
+pip install -r requirements.txt
+```
+
 #### Download models
 
 Download the required model files from [**Model_Lists**](https://huggingface.co/fireredteam/FireRedTTS/tree/main) and place them in the folder `pretrained_models`
